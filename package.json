@@ -1,0 +1,18 @@
+{
+  "name": "gqgraphicdb",
+  "license":"MIT",
+  "description":"gqgraphicdb is a graphic db based on mongo db. It accomplish titandb without having id changes when updating data",
+  "scripts":{
+    "test":"mocha -t 100000 --compilers coffee:coffee-script/register --ui bdd --reporter tap test/"
+  },
+  "dependencies":{
+    "coffee-script":"1.6",
+    "gqmongoose":"1.0.2",
+    "lodash":"1.0.0"
+  },
+  "version": "0.0.1",
+  "versions":{
+    "0.0.2":"added schemas and ability to create node and edges",
+    "0.0.1":"init"
+  }
+}
